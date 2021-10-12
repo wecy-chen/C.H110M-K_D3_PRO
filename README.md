@@ -13,7 +13,7 @@
 	网卡                   瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller / 精英
 
 ## 适用版本bigSur11.6
-	OCC版本 0.7.0 
+	OCC版本 0.7.3
 	1.显卡
 	2.网卡
 	3.声卡
