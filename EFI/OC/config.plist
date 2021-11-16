@@ -18,7 +18,7 @@
                     <key>Comment</key>
                     <string>HPET _CRS (Needs _CRS to XCRS Rename)</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Path</key>
                     <string>SSDT-HPET.aml</string>
                 </dict>
@@ -26,7 +26,7 @@
                     <key>Comment</key>
                     <string>SSDT-EC</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Path</key>
                     <string>SSDT-EC.aml</string>
                 </dict>
@@ -114,7 +114,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>JV9DUlM=</data>
                     <key>Limit</key>
