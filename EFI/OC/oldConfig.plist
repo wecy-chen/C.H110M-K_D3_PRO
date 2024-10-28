@@ -350,7 +350,7 @@
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key>AAPL,ig-platform-id</key>
-                    <data>BwCbPg==</data>
+                    <data>EjRWeA==</data>
                     <key>AAPL,slot-name</key>
                     <string>Internal@0,2,0</string>
                     <key>device-id</key>
@@ -1190,11 +1190,11 @@
             <key>Debug</key>
             <dict>
                 <key>AppleDebug</key>
-                <false/>
+                <true/>
                 <key>ApplePanic</key>
-                <false/>
+                <true/>
                 <key>DisableWatchDog</key>
-                <false/>
+                <true/>
                 <key>DisplayDelay</key>
                 <integer>0</integer>
                 <key>DisplayLevel</key>
@@ -1475,7 +1475,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02103200J9PHC11M</string>
+                <string>C02041701J9LNV98C</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1487,11 +1487,11 @@
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>iMac20,1</string>
+                <string>iMac19,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C02F4JZEPN5T</string>
+                <string>C02DJGZYJV3Q</string>
                 <key>SystemUUID</key>
-                <string>B5A22BAF-394B-408C-B744-BFC97A62F592</string>
+                <string>21EEED3D-3E69-4FF7-8205-6929688EE2BE</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
