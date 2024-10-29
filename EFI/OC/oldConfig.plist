@@ -339,34 +339,83 @@
             <dict>
                 <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
                 <dict>
-                    <key>alc-layout-id</key>
+                    <key>AAPL,slot-name</key>
                     <data>BQAAAA==</data>
-                </dict>
-                <key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
-                <dict>
+                    <key>device_type</key>
+                    <string>Audio device</string>
+                    <key>hda-gfx</key>
+                    <string>onboard-1</string>
                     <key>layout-id</key>
-                    <data>BQAAAA==</data>
+                    <integer>5</integer>
+                    <key>model</key>
+                    <string>HD Audio</string>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key>AAPL,ig-platform-id</key>
-                    <data>EjRWeA==</data>
+                    <data>BwCbPg==</data>
                     <key>AAPL,slot-name</key>
                     <string>Internal@0,2,0</string>
+                    <key>AAPL00,override-no-connect</key>
+                    <data>AP///////wAQrHycQklLMBofAQOANR5g6m+xp1VMniUMUFSlSwBxT4GAqcDRwAEBAQEBAQEBAjqAGHE4LUBYLEUADyghAAAeAAAA/wA0WkwxQjczCiAgICAgAAAA/ABERUxMIFMyNDIxSEdGAAAA/QAwkB6qIgAKICAgICAgARsCAzTxUZAFBAMCBxYBFB8SEwYRFT9AIwkHB4MBAABnAwwAEAAARG0aAAACATCQ5gAAAAAAhm+AoHA4QEAwIDUADyghAAAa2IOAoHA4MEAwIDUADyghAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUA==</data>
                     <key>device-id</key>
-                    <data>kj4AAA==</data>
+                    <data>mz4AAA==</data>
                     <key>device_type</key>
                     <string>VGA compatible controller</string>
+                    <key>disable-external-gpu</key>
+                    <data>AQAAAA==</data>
+                    <key>enable-hdmi-dividers-fix</key>
+                    <data>AQAAAA==</data>
+                    <key>enable-hdmi20</key>
+                    <data>AQAAAA==</data>
+                    <key>enable-lspcon-support</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con0-busid</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con0-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con0-index</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con0-pipe</key>
+                    <data>EgAAAA==</data>
+                    <key>framebuffer-con0-type</key>
+                    <data>AAgAAA==</data>
+                    <key>framebuffer-con1-busid</key>
+                    <data>AwAAAA==</data>
                     <key>framebuffer-con1-enable</key>
                     <data>AQAAAA==</data>
+                    <key>framebuffer-con1-index</key>
+                    <data>AgAAAA==</data>
+                    <key>framebuffer-con1-pipe</key>
+                    <data>EgAAAA==</data>
                     <key>framebuffer-con1-type</key>
+                    <data>AAQAAA==</data>
+                    <key>framebuffer-con2-busid</key>
+                    <data>AAAAAA==</data>
+                    <key>framebuffer-con2-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con2-index</key>
+                    <data>/////w==</data>
+                    <key>framebuffer-con2-pipe</key>
+                    <data>EgAAAA==</data>
+                    <key>framebuffer-con2-type</key>
                     <data>AAgAAA==</data>
+                    <key>framebuffer-con3-has-lspcon</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-fbmem</key>
+                    <data>AACQAA==</data>
                     <key>framebuffer-patch-enable</key>
                     <data>AQAAAA==</data>
+                    <key>framebuffer-portcount</key>
+                    <data>AgAAAA==</data>
+                    <key>framebuffer-stolenmem</key>
+                    <data>AAAwAQ==</data>
+                    <key>framebuffer-unifiedmem</key>
+                    <data>AAAAgA==</data>
                     <key>hda-gfx</key>
-                    <data>AAAAAA==</data>
+                    <string>onboard-1</string>
                     <key>model</key>
-                    <string>Intel UHD Graphics 630 (Desktop)</string>
+                    <string>Intel UHD Graphics 630</string>
                 </dict>
             </dict>
             <key>Delete</key>
