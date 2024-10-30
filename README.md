@@ -19,3 +19,13 @@
 	2.网卡
 	3.声卡
 	4.usb3.0端口
+
+  kext 下载地址
+
+  Lilu.kext
+  https://github.com/acidanthera/Lilu/releases
+
+  VirtualSMC.kext
+  https://github.com/acidanthera/VirtualSMC/releases
+
+
