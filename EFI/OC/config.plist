@@ -99,6 +99,16 @@
         <dict>
             <key>Add</key>
             <dict>
+                <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+                <dict>
+                    <key>alc-layout-id</key>
+                    <data>BQAAAA==</data>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
+                <dict>
+                    <key>layout-id</key>
+                    <data>BQAAAA==</data>
+                </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key>AAPL,ig-platform-id</key>
@@ -401,7 +411,7 @@
                 <key>SysReport</key>
                 <false/>
                 <key>Target</key>
-                <integer>3</integer>
+                <integer>67</integer>
             </dict>
             <key>Entries</key>
             <array>
@@ -534,7 +544,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v keepsyms=1 debug=0x100 -no_compat_check gfxrst=1 alcid=5</string>
+                    <string>-v -no_compat_check</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
