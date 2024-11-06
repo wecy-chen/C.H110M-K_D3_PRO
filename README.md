@@ -19,3 +19,8 @@
 	2.网卡
 	3.声卡
 	4.usb3.0端口
+
+
+##  开启日志
+ 1. Target设置67  boot-args 启动参数-v
+ 2. DisableWatchDog设true AppleDebug设true ApplePanic设true
