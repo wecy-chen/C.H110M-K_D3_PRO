@@ -24,3 +24,8 @@
 ##  开启日志
  1. Target设置67  boot-args 启动参数-v
  2. DisableWatchDog设true AppleDebug设true ApplePanic设true
+
+
+ ## cfg
+ CFGLOCK.efi会自动找到CFG LOCK的参数，如Offset: 003E，值为1，1即可开启，输入Y，即可改为0，即关闭。
+ 关闭CFG LOCK后，取消AppleCpuPmCfgLOCk和AppleXcpmCfgLOCk
