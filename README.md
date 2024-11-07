@@ -37,3 +37,37 @@ CFG-锁已经启用
 
 CFG-锁被禁用。
 `This firmware has UNLOCKED MSR 0xE2 register!`
+
+## DP
+
+`DeviceProperties`
+
+默认
+```
+<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+  <dict>
+      <key>alc-layout-id</key>
+      <data>BQAAAA==</data>
+  </dict>
+  <key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
+  <dict>
+      <key>layout-id</key>
+      <data>BQAAAA==</data>
+  </dict>
+  <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+  <dict>
+      <key>AAPL,ig-platform-id</key>
+      <data>AAASWQ==</data>
+      <key>framebuffer-patch-enable</key>
+      <data>AQAAAA==</data>
+      <key>framebuffer-stolenmem</key>
+      <data>AAAwAQ==</data>
+  </dict>
+```
+
+新
+
+id 07009B3E  接口00080000  CON0总线ID01 
+
+
+
