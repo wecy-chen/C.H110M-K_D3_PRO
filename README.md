@@ -29,3 +29,11 @@
  ## cfg
  CFGLOCK.efi会自动找到CFG LOCK的参数，如Offset: 003E，值为1，1即可开启，输入Y，即可改为0，即关闭。
  关闭CFG LOCK后，取消AppleCpuPmCfgLOCk和AppleXcpmCfgLOCk
+
+## ControlMsrE2
+
+CFG-锁已经启用
+`This firmware has LOCKED MSR 0xE2 register!`
+
+CFG-锁被禁用。
+`This firmware has UNLOCKED MSR 0xE2 register!`
