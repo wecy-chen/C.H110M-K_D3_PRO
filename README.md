@@ -42,7 +42,7 @@ CFG-锁被禁用。
 
 `DeviceProperties`
 
-默认
+默认 00001259
 ```
 <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
   <dict>
