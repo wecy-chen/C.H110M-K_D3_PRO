@@ -65,7 +65,60 @@ CFG-锁被禁用。
   </dict>
 ```
 
-新
+
+
+新1
+```
+                <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+                <dict>
+                    <key>AAPL,ig-platform-id</key>
+                    <data>AAASWQ==</data>
+                    <key>AAPL,slot-name</key>
+                    <string>Built-In</string>
+                    <key>device_type</key>
+                    <string>Display Controller</string>
+                    <key>framebuffer-patch-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-stolenmem</key>
+                    <data>AAAwAQ==</data>
+                    <key>model</key>
+                    <string>Intel HD 630</string>
+                </dict>
+```
+
+新2(目前用这个)
+```
+            <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+                <dict>
+                    <key>AAPL,GfxYTile</key>
+                    <data>AQAAAA==</data>
+                    <key>AAPL,ig-platform-id</key>
+                    <data>AAASWQ==</data>
+                    <key>device-id</key>
+                    <data>ElkAAA==</data>
+                    <key>framebuffer-fbmem</key>
+                    <data>AACQAA==</data>
+                    <key>framebuffer-patch-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-stolenmem</key>
+                    <data>AAAwAQ==</data>
+                    <key>hda-gfx</key>
+                    <string>onboard-1</string>
+                </dict>
+```
+
+新3
+```
+    <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+                <dict>
+                    <key>AAPL,GfxYTile</key>
+                    <data>AQAAAA==</data>
+                    <key>AAPL,ig-platform-id</key>
+                    <data>AAASWQ==</data>
+                    <key>device-id</key>
+                    <data>ElkAAA==</data>
+                </dict>
+```
 
 id 07009B3E  接口00080000  CON0总线ID01 
 
