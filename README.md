@@ -44,16 +44,6 @@ CFG-锁被禁用。
 
 默认 00001259
 ```
-<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
-  <dict>
-      <key>alc-layout-id</key>
-      <data>BQAAAA==</data>
-  </dict>
-  <key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
-  <dict>
-      <key>layout-id</key>
-      <data>BQAAAA==</data>
-  </dict>
   <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
   <dict>
       <key>AAPL,ig-platform-id</key>
@@ -86,7 +76,7 @@ CFG-锁被禁用。
                 </dict>
 ```
 
-新2(目前用这个)
+
 ```
             <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
