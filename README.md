@@ -90,3 +90,5 @@ xhell脚本 (国内)
   https://github.com/acidanthera/VirtualSMC/releases
 
 
+#bootcamp 
+
