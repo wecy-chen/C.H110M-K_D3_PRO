@@ -382,20 +382,12 @@
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
-                    <key>AAPL,GfxYTile</key>
-                    <data>AQAAAA==</data>
                     <key>AAPL,ig-platform-id</key>
                     <data>AAASWQ==</data>
-                    <key>device-id</key>
-                    <data>ElkAAA==</data>
-                    <key>framebuffer-fbmem</key>
-                    <data>AACQAA==</data>
                     <key>framebuffer-patch-enable</key>
                     <data>AQAAAA==</data>
                     <key>framebuffer-stolenmem</key>
                     <data>AAAwAQ==</data>
-                    <key>hda-gfx</key>
-                    <string>onboard-1</string>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -1402,7 +1394,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02947303CDH69F1F</string>
+                <string>C020284014NPHCD1M</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1414,11 +1406,11 @@
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>iMac18,1</string>
+                <string>iMac20,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C02ZQJZMH7JY</string>
+                <string>C02D2VY0PN5T</string>
                 <key>SystemUUID</key>
-                <string>28DB9E52-DD11-446E-9AA2-755506DB24E7</string>
+                <string>DFFAA01E-02F4-4728-9491-5E30274EF316</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
