@@ -12,6 +12,11 @@
 	声卡                   瑞昱 ALC662 @ 英特尔 High Definition Audio 控制器    alc-layout-id 5注入
 	网卡                   瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller / 精英
 
+
+参考地址
+
+https://apple.sqlsec.com/
+
 ## 适用版本bigSur11.6
 	OCC版本 0.7.0 
 	以下正常
@@ -30,6 +35,9 @@
  CFGLOCK.efi会自动找到CFG LOCK的参数，如Offset: 003E，值为1，1即可开启，输入Y，即可改为0，即关闭。
  关闭CFG LOCK后，取消AppleCpuPmCfgLOCk和AppleXcpmCfgLOCk
 
+ 当前EFI关闭cfg后
+ 有勾选 AppleCpuPmCfgLOCk 和 AppleXcpmCfgLOCk
+
 ## ControlMsrE2
 
 CFG-锁已经启用
@@ -41,6 +49,8 @@ CFG-锁被禁用。
 ## DP
 
 `DeviceProperties`
+
+显示
 
 默认 00001259
 ```
@@ -55,62 +65,18 @@ CFG-锁被禁用。
   </dict>
 ```
 
+`Generic`
+
+设备
+
+默认 iMac20,1
 
 
-新1
-```
-                <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-                <dict>
-                    <key>AAPL,ig-platform-id</key>
-                    <data>AAASWQ==</data>
-                    <key>AAPL,slot-name</key>
-                    <string>Built-In</string>
-                    <key>device_type</key>
-                    <string>Display Controller</string>
-                    <key>framebuffer-patch-enable</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-stolenmem</key>
-                    <data>AAAwAQ==</data>
-                    <key>model</key>
-                    <string>Intel HD 630</string>
-                </dict>
-```
+## 开启 HiDPi
 
+xhell脚本 (国内)
 
-```
-            <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-                <dict>
-                    <key>AAPL,GfxYTile</key>
-                    <data>AQAAAA==</data>
-                    <key>AAPL,ig-platform-id</key>
-                    <data>AAASWQ==</data>
-                    <key>device-id</key>
-                    <data>ElkAAA==</data>
-                    <key>framebuffer-fbmem</key>
-                    <data>AACQAA==</data>
-                    <key>framebuffer-patch-enable</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-stolenmem</key>
-                    <data>AAAwAQ==</data>
-                    <key>hda-gfx</key>
-                    <string>onboard-1</string>
-                </dict>
-```
+`sh -c "$(curl -fsSL https://html.sqlsec.com/hidpi.sh)"`
 
-新3
-```
-    <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-                <dict>
-                    <key>AAPL,GfxYTile</key>
-                    <data>AQAAAA==</data>
-                    <key>AAPL,ig-platform-id</key>
-                    <data>AAASWQ==</data>
-                    <key>device-id</key>
-                    <data>ElkAAA==</data>
-                </dict>
-```
-
-id 07009B3E  接口00080000  CON0总线ID01 
-
-
-
+再次运行
+`~/hidpi.sh`
