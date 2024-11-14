@@ -18,7 +18,7 @@
 https://apple.sqlsec.com/
 
 ## 适用版本bigSur11.6
-	OCC版本 0.7.0 
+	OCC版本 0.8.8
 	以下正常
 	1.显卡
 	2.网卡
@@ -26,9 +26,18 @@ https://apple.sqlsec.com/
 	4.usb3.0端口
 
 
-##  开启日志
+OC Auxiliary Tools
+版本 20240004
+
+
+##  日志
+ 
+开启
  1. Target设置67  boot-args 启动参数-v
  2. DisableWatchDog设true AppleDebug设true ApplePanic设true
+
+关闭
+  misc-debug下的target数值改为3
 
 
  ## cfg

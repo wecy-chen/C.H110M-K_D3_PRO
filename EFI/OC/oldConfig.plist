@@ -1146,9 +1146,7 @@
         <key>Misc</key>
         <dict>
             <key>BlessOverride</key>
-            <array>
-                <string>\EFI\Microsoft\Boot\bootmgfw.efi</string>
-            </array>
+            <array/>
             <key>Boot</key>
             <dict>
                 <key>ConsoleAttributes</key>
@@ -1197,7 +1195,7 @@
                 <key>SysReport</key>
                 <false/>
                 <key>Target</key>
-                <integer>67</integer>
+                <integer>3</integer>
             </dict>
             <key>Entries</key>
             <array>
