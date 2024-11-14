@@ -90,5 +90,17 @@ xhell脚本 (国内)
   https://github.com/acidanthera/VirtualSMC/releases
 
 
-#bootcamp 
+# bootcamp 
+
+驱动天空下载
+
+https://www.drvsky.com/apple/BootCamp_6.1.8082.htm
+
+
+删除无用文件
+- 删除$WinPEDriver$ 删除里面的文件
+- 不要删除 BootCamp/Drivers/Apple,其他删除
+
+cmd管理员运行  \bootcamp\Drivers\Apple\bootcamp.msi 文件
+
 
