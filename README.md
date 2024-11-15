@@ -74,6 +74,80 @@ CFG-锁被禁用。
   </dict>
 ```
 
+定制 可能有问题
+```
+<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+<dict>
+    <key>AAPL,ig-platform-id</key>
+    <data>AAAeWQ==</data>
+    <key>AAPL,slot-name</key>
+    <string>Internal@0,2,0</string>
+    <key>device_type</key>
+    <string>VGA compatible controller</string>
+    <key>framebuffer-con0-busid</key>
+    <data>AAAAAA==</data>
+    <key>framebuffer-con0-enable</key>
+    <data>AQAAAA==</data>
+    <key>framebuffer-con0-flags</key>
+    <data>mAAAAA==</data>
+    <key>framebuffer-con0-index</key>
+    <data>AAAAAA==</data>
+    <key>framebuffer-con0-pipe</key>
+    <data>CAAAAA==</data>
+    <key>framebuffer-con0-type</key>
+    <data>ACAAAA==</data>
+    <key>framebuffer-con1-busid</key>
+    <data>BQAAAA==</data>
+    <key>framebuffer-con1-enable</key>
+    <data>AQAAAA==</data>
+    <key>framebuffer-con1-flags</key>
+    <data>hwEAAA==</data>
+    <key>framebuffer-con1-index</key>
+    <data>AQAAAA==</data>
+    <key>framebuffer-con1-pipe</key>
+    <data>CQAAAA==</data>
+    <key>framebuffer-con1-type</key>
+    <data>EAAAAA==</data>
+    <key>framebuffer-con2-busid</key>
+    <data>BAAAAA==</data>
+    <key>framebuffer-con2-enable</key>
+    <data>AQAAAA==</data>
+    <key>framebuffer-con2-flags</key>
+    <data>hwEAAA==</data>
+    <key>framebuffer-con2-index</key>
+    <data>AgAAAA==</data>
+    <key>framebuffer-con2-pipe</key>
+    <data>CgAAAA==</data>
+    <key>framebuffer-con2-type</key>
+    <data>AAgAAA==</data>
+    <key>framebuffer-con3-busid</key>
+    <data>AAAAAA==</data>
+    <key>framebuffer-con3-enable</key>
+    <data>AQAAAA==</data>
+    <key>framebuffer-con3-flags</key>
+    <data>IAAAAA==</data>
+    <key>framebuffer-con3-index</key>
+    <data>/////w==</data>
+    <key>framebuffer-con3-pipe</key>
+    <data>AAAAAA==</data>
+    <key>framebuffer-con3-type</key>
+    <data>AQAAAA==</data>
+    <key>framebuffer-fbmem</key>
+    <data>AAAAAA==</data>
+    <key>framebuffer-patch-enable</key>
+    <data>AQAAAA==</data>
+    <key>framebuffer-stolenmem</key>
+    <data>AAAgAg==</data>
+    <key>framebuffer-unifiedmem</key>
+    <data>AAAAgA==</data>
+    <key>hda-gfx</key>
+    <string>onboard-1</string>
+    <key>model</key>
+    <string>Intel HD Graphics 630</string>
+</dict>
+```
+
+
 `Generic`
 
 设备
